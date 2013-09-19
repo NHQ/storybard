@@ -1,3 +1,5 @@
+var fs = require('nota-bene')
+fs.setStorage(window.TEMPORARY)
 var charName = document.getElementById('charName');
 var charAlias = document.getElementById('charAlias')
 var charBio = document.getElementById('charBio');

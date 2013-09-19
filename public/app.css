@@ -1,4 +1,4 @@
-html, body, div, p, pre, img, audio, video, h1, h2, h3, h4, form, fieldset, label, legend, span, input, label, legend, textarea
+html, body, div, p, pre, img, audio, video, h1, h2, h3, h4, form, fieldset, label, legend, span, input, label, legend, textarea, select
 {
 -webkit-box-sizing: border-box;
 box-sizing: border-box;
@@ -72,6 +72,7 @@ button {
 }
 
 .w350{
+  display:inline-block;
   width:350px
 }
 
